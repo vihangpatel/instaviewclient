@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 50px;
+}
+
+.App-header {
+  background: -webkit-linear-gradient(315deg, #da3159, #794a8b 80%, #754b8d);
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.item {
+  border: 1px solid gray;
+  margin: 5px;
+}
+
+.full-screen {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+.full-screen textarea {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.close-icon {
+  padding: 5px;
+  bottom: 10px;
+  width: 80%;
+  background: #167ffc;
+  font-weight: bold;
+  color: white;
+}
