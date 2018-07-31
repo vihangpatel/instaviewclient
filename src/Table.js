@@ -66,10 +66,11 @@ class Table extends Component {
 		if (index) {
 			return (
 				<div className='full-screen'>
+					
+					<textarea>{JSON.stringify(response[index], '\t', 4)}</textarea>
 					<div className='close-icon' onClick={this.closeModal}>
 						Close
 					</div>
-					<textarea>{JSON.stringify(response[index], '\t', 4)}</textarea>
 				</div>
 			)
 		} else {
