@@ -33,6 +33,7 @@
 .item {
   border: 1px solid gray;
   margin: 5px;
+  cursor: pointer;
 }
 
 .full-screen {
@@ -62,4 +63,5 @@
   background: #167ffc;
   font-weight: bold;
   color: white;
+  cursor: pointer;
 }
